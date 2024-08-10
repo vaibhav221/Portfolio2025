@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './MainVplogo.png'; // Make sure you have a logo.png in the src folder
-import movingImage from './Vaibhav01.svg'; 
+import movingImage from './V4.png'; 
 
 import './All.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
