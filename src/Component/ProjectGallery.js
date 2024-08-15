@@ -9,7 +9,7 @@ import PG1 from './PG1.png';
 import PG3 from './PG3.png';
 import PG2 from './PG2.png';
 import Contactpage from './ContactPage';
-import p11 from './p11.svg';
+import p11 from './ef.jpg';
 import p12 from './p11.svg';
 import p13 from './p11.svg';
 

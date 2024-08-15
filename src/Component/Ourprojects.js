@@ -6,7 +6,7 @@ import './Maincomponent.css';
 import { Link } from 'react-router-dom';
 import './AllMobileview.css';
 import P1 from './P1.gif';
-import p11 from './p11.svg'
+import ef from './ef.jpg'
 
 const Ourprojects = () => {
   const [activePopup, setActivePopup] = useState(null);
@@ -58,7 +58,7 @@ const Ourprojects = () => {
         <div className="popup-overlay">
           <div className="popup-content">
             <button className="close-button" onClick={closePopup}>×</button>
-            <img src={p11} alt="Popup Image 1" className="popup-image" />
+            <img src={ef} alt="Popup Image 1" className="popup-image" />
           </div>
         </div>
       )}
@@ -67,7 +67,7 @@ const Ourprojects = () => {
         <div className="popup-overlay">
           <div className="popup-content">
             <button className="close-button" onClick={closePopup}>×</button>
-            <img src={p11} alt="Popup Image 2" className="popup-image" />
+            <img src={ef} alt="Popup Image 2" className="popup-image" />
           </div>
         </div>
       )}
