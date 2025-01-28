@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vaibhavparihar.in/",
+  "homepage": "https://vaibhav221.github.io/MyPortfolio/",
   "name": "MyPortfolio",
   "version": "0.1.0",
   "private": true,
@@ -58,6 +58,6 @@
   "devDependencies": {
     "concurrently": "^7.6.0",
     "dotenv": "^16.4.5",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }
