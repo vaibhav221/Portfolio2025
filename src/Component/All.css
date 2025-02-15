@@ -616,7 +616,7 @@ body{
   font-family: 'blackmango';
   color:  var(--footer-color);
   margin-bottom: 0;
-  padding-bottom: 4%;
+  /* padding-bottom: 4%; */
 }
 
 .subtitle {
@@ -641,7 +641,9 @@ body{
 .gallery-container {
   width: 100%;
   justify-content: center;
-  display: flex;
+  display: grid;
+  margin-top: 5%;
+  margin-bottom: 5%;
  
   color: white;
 }
@@ -712,7 +714,7 @@ body{
   justify-content: center;
 
   width: 100%;
-  background-image: url('./backk.svg'); 
+  /* background-image: url('./backk.svg');  */
   background-color: var(--background-color);
   overflow-x: hidden;
   
@@ -851,13 +853,13 @@ body{
   text-align: center;
   /* padding: 20px; */
   line-height: 10px;
-  padding-top: 5%;
+  /* padding-top: 5%; */
   /* margin-left: 10%; */
   
 }
 
 .services-title {
-  font-size: 64px;
+  font-size: 36px;
   font-family: 'blackmango';
   padding-left: 10px;
   font-weight: 400;
@@ -866,15 +868,15 @@ body{
 }
 
 .services-heading {
-  font-size: 80px;
+  font-size: 46px;
   font-weight: 400;
   font-family: "Instrument Serif", serif;
   color: grey;
 }
 
 .services-text {
-  font-size: 24px; /* Adjust as needed */
-  margin-bottom: 80px;
+  font-size: 16px; /* Adjust as needed */
+  margin-bottom: 8%;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: grey;

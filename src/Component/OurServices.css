@@ -1,8 +1,8 @@
 /* src/ScrollingContainer.css */
 #service{
   background-color: var(--background-color);
-  background-image: url('./backk.svg'); 
-  margin-bottom: 8%;
+  /* background-image: url('./backk.svg');  */
+  margin-bottom: 5%;
 }
 
 .containerr {
@@ -39,14 +39,14 @@
   
 }
 .main-headingg {
-  font-size: 60px;
+  font-size: 36px;
   font-family: 'blackmango';
   color: var(--text-color);
   margin-bottom: 0;
 }
 
 .sub-headingg {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 40px;
   width: 45%;
   font-family: 'Poppins', sans-serif;
@@ -55,11 +55,13 @@
 @media (max-width: 450px) {
   .sub-headingg {
     font-size: 16px;
+    font-weight: 400;
     margin-bottom: 40px;
     width: 80%;
     font-family: 'Poppins', sans-serif;
     margin-left: 10%;
     color: grey;
+    line-height: 30px;
   }
   .pre-headingg-process {
     font-size: 12px;
@@ -73,7 +75,7 @@
     
   }
   .main-headingg {
-    font-size: 44px;
+    font-size: 34px;
     font-family: 'blackmango';
     color: var(--text-color);
     margin-bottom: 0;
@@ -91,7 +93,7 @@
   }
 }
 .subtitlee{
-  font-size: 64px;
+  font-size: 48px;
   color: #4a4a4a;
   font-family: "Instrument Serif", serif;
   padding-bottom: 4%;

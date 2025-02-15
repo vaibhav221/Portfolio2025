@@ -54,6 +54,13 @@
   will-change: transform;
   animation: tilt 4s ease-in-out infinite alternate;
 }
+.scrollerr-image {
+  width: calc(20% - 20px); /* Adjust width considering the gap */
+  height: 52px;
+  transition: transform 0.3s ease;
+  will-change: transform;
+  animation: tilt 4s ease-in-out infinite alternate;
+}
 .scroller-image2 {
   width: calc(75% - 20px); /* Adjust width considering the gap */
   height: auto;
@@ -115,6 +122,24 @@
   .scroller-image {
     width: calc(42% - 20px); /* Adjust width for mobile devices */
   }
+  .scrollerr-image {
+    width: calc(50% - 20px); /* Adjust width considering the gap */
+    height: 52px;
+    transition: transform 0.3s ease;
+    will-change: transform;
+    animation: tilt 4s ease-in-out infinite alternate;
+  }
+  .testimonial-containerr {
+    width: 100%;
+    box-shadow: inset 200px 0 30px -30px var rgb(255, 255, 255), inset -200px 0 30px -30px rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;     
+    z-index: 3;   
+    box-shadow: inset 00px 0 00px -00px black, inset -00px 0 0px -0px #000000;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 50px, black calc(80% - 50px), transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 50px, black calc(85% - 50px), transparent 100%);
+   
+  } 
 
   @keyframes scroll {
     0% {

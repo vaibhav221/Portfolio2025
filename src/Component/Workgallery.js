@@ -35,7 +35,7 @@ const Workgallery = () => {
   return (
     <div id="Work_gallery">
     <div className="gallery-container">
-      <h1 className="title"  >Work <span className='subtitle'>Gallery</span></h1>
+      <h1 className="title">Work Gallery</h1>
     </div>
     
     <div className="testimonial-container">

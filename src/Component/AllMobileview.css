@@ -21,7 +21,7 @@
       .navbar {
     position: fixed;
     top: 5%;
-    left: 41%;
+    left: 42%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -210,7 +210,7 @@
         font-family: 'Instrument Serif';
     }
     .services-title {
-        font-size: 44px;
+        font-size: 36px;
         font-family: 'blackmango';
         padding-left: 10px;
         font-weight: 400;
@@ -218,7 +218,7 @@
       
       }
       .services-heading {
-        font-size: 64px;
+        font-size: 46px;
         font-weight: 400;
         font-family: "Instrument Serif", serif;
         color: grey;
@@ -245,7 +245,7 @@
     /* project css start */
     #project-App{
         width:100%;
-        margin-top: 10%;
+        
     }
     .project-left-div{
         margin-top: 10%;
@@ -295,7 +295,7 @@
         width: 100%;
         text-align: center;
         margin-left: 0;
-        margin-top: 10%;
+        /* margin-top: 10%; */
     }
     .services-row{
         flex-direction: column;
@@ -510,7 +510,7 @@
         flex-direction: column-reverse;
     }
     .card{
-        height: auto;
+        /* height: auto; */
     }
     .info-left{
         width: 80%;
@@ -572,4 +572,14 @@
     width: 73%;
     margin-left: 15%;
   }
+  .gallery-container {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    /* margin-top: 5%; */
+    margin-bottom: 5%;
+   
+    color: white;
+  }
+
 }

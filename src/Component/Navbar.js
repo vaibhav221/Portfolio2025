@@ -16,9 +16,10 @@ const Navbar = () => {
         </Link>
         {/* <ToggleSwitch /> */}
         <Link className="navbar-item" smooth to="/#Work_gallery">Work</Link>
-        <Link className="navbar-item" smooth to="/#project-App">Project</Link>
+        <Link className="navbar-item" smooth to="/project-gallery">Project</Link>
         <Link className="navbar-item" smooth to="/#service">service</Link>
         <Link className="navbar-item-contact" smooth to="/contactpage-container">Contact</Link>
+        
         
 
       </div>

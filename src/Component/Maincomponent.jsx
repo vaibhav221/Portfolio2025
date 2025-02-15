@@ -22,11 +22,11 @@ const Maincomponent = () => {
     <Navbar />
       <HomePage/>
       
-      {/* <About /> */}
+      
       <Workgallery />
      <Ourprojects />
      <Ourservices />
-      <Process/>
+      {/* <Process/> */}
       <Testimonials/>
     <Contactpage />
       <Footer />

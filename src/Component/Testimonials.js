@@ -36,8 +36,10 @@ const Testimonials = () => {
   return (
     <div className='testimonialss'>
       <div className="services-left">
+        <div>
         <h1 className="services-title">Client</h1>
         <h2 className="services-heading">Gossip</h2>
+        </div>
         <p className="services-text">Hear what my clients are saying about their experiences!</p>
       </div>
       <div className="testimonial-container">

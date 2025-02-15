@@ -46,17 +46,17 @@ const Ourservices = () => {
       <div className="pre-headingg">Services</div>
       <div className="main-headingg">All your<span className="subtitlee" >design</span> needs.</div>
       <p className="sub-headingg">Running a successful business means more than just a website. That's why i cover all your design needs, so you don't have to go anywhere else.</p>
-      <div className="testimonial-container">
+      <div className="testimonial-containerr">
       
       <div className="image-scroller-container">
         <div className="scroller-row scroller-row-1">
           {imagesRow1.concat(imagesRow1).map((image, index) => (
-            <img key={index} src={image} alt={`image-row1-${index}`} className="scroller-image" />
+            <img key={index} src={image} alt={`image-row1-${index}`} className="scrollerr-image" />
           ))}
         </div>
         <div className="scroller-row scroller-row-2">
           {imagesRow2.concat(imagesRow2).map((image, index) => (
-            <img key={index} src={image} alt={`image-row2-${index}`} className="scroller-image" />
+            <img key={index} src={image} alt={`image-row2-${index}`} className="scrollerr-image" />
           ))}
         </div>
       </div>
