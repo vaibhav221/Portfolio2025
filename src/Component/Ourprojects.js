@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './All.css';
 import './OurProject.css';
 import P2 from './ikansh.svg';
-import KuberX from './KuberX.svg';
+import KuberX from './KX.jpg';
 import './Maincomponent.css';
 import { Link } from 'react-router-dom';
 import './AllMobileview.css';
