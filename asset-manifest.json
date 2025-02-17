@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.25e209ad.css",
-    "main.js": "/static/js/main.4974b45c.js",
+    "main.js": "/static/js/main.9e6221d8.js",
     "static/js/453.e31995ca.chunk.js": "/static/js/453.e31995ca.chunk.js",
-    "static/media/KuberX.svg": "/static/media/KuberX.d9b590cd4c22ed42421c0297c000a090.svg",
     "static/media/ikansh.svg": "/static/media/ikansh.09eac5c858fd61529c0a524cf652a490.svg",
     "static/media/p11.svg": "/static/media/p11.09eac5c858fd61529c0a524cf652a490.svg",
+    "static/media/KX.jpg": "/static/media/KX.845840acc043f24b31e5.jpg",
     "static/media/P1.gif": "/static/media/P1.515e658a8d78cb34ee11.gif",
     "static/media/social-media.gif": "/static/media/social-media.dddacb8dbec2f607bd35.gif",
     "static/media/Ikansh.png": "/static/media/Ikansh.fee930c1805bc9f9bbff.png",
@@ -86,11 +86,11 @@
     "static/media/logoo.svg": "/static/media/logoo.6d9d4c187af453b82fcebeb4d920c026.svg",
     "static/media/._BlackMango-ExtraBold.ttf": "/static/media/._BlackMango-ExtraBold.64f7b1f723ed694e1a1a.ttf",
     "main.25e209ad.css.map": "/static/css/main.25e209ad.css.map",
-    "main.4974b45c.js.map": "/static/js/main.4974b45c.js.map",
+    "main.9e6221d8.js.map": "/static/js/main.9e6221d8.js.map",
     "453.e31995ca.chunk.js.map": "/static/js/453.e31995ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25e209ad.css",
-    "static/js/main.4974b45c.js"
+    "static/js/main.9e6221d8.js"
   ]
 }
