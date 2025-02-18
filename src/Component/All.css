@@ -1619,8 +1619,8 @@ border-radius: 10%;
 }
 
 .project1-button-row {
-  display: flex;
-  gap: 10px;
+  /* display: flex; */
+  gap: 8px;
   justify-content: center;
   
 }

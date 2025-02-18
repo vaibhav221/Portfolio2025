@@ -37,7 +37,7 @@
 .project-gallery-card {
   display: flex;
   margin-top: 3%;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-left: 10%;
   align-items: center;
   gap: 50px;
@@ -68,12 +68,12 @@
 
 .cardd-content {
   padding: 25px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .cardd-content h3 {
   margin: 0 0 10px 0;
-  font-size: 24px;
+  font-size: 16px;
   color: white;
   font-family: 'Poppins';
   font-weight: 500;
@@ -188,7 +188,7 @@
   
   .cardd-content {
     padding: 25px;
-    text-align: center;
+    /* text-align: center; */
   }
   
   .cardd-content h3 {
