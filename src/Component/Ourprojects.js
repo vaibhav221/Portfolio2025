@@ -47,8 +47,8 @@ const Ourprojects = () => {
       src: cc,  // Image for card display
       popupImage: p5, // Image for popup
       alt: "Third Project",
-      title: "Ikaansh",
-      time: "Crafting visual stories that elevate brand presence."
+      title: "Flexible Business Payments",
+      time: "Pay Via Credit Card Feature"
     }
   ];
 
