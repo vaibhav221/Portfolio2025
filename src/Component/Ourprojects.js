@@ -10,6 +10,8 @@ import P1 from './P1.gif';
 import p3 from './Kuberx_f.gif';
 import ef from './ef.jpg';
 import p4 from './Ikansh.png';
+import p5 from "./PayCC.jpg"
+import cc from "./CC.png"
 
 // Importing the new images based on the provided image
 
@@ -42,8 +44,8 @@ const Ourprojects = () => {
       time: "Enhancing user interaction with streamlined technological experiences."
     },
     {
-      src: p4,  // Image for card display
-      popupImage: P2, // Image for popup
+      src: cc,  // Image for card display
+      popupImage: p5, // Image for popup
       alt: "Third Project",
       title: "Ikaansh",
       time: "Crafting visual stories that elevate brand presence."
