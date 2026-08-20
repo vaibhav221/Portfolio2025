@@ -5,7 +5,7 @@ import email from './email.png'
 function Logo() {
   return (
     <div className="header">    
-    <div className='mail'><img src={email}/>ranyparihar@gmail.com</div>
+    <div className='mail'><img src={email} alt="Email"/>ranyparihar@gmail.com</div>
       <div className='header-logo-content'>
         {/* <span className="text-left">Vaibhav</span> */}
         <img src={logo} className="logo" alt="Logo" />

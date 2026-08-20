@@ -1,11 +1,11 @@
 import React from 'react';
 import './All.css'; // Make sure to create and import the CSS file
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import './OurServices.css';
-import gif1 from './logo-design.gif';
-import gif2 from './social-media.gif';
-import gif3 from './startup.gif';
-import gif4 from './subscribe.gif';
+// import gif1 from './logo-design.gif';
+// import gif2 from './social-media.gif';
+// import gif3 from './startup.gif';
+// import gif4 from './subscribe.gif';
 import img1 from './Item1.svg'
 import img2 from './Item2.svg'
 import img3 from './Item3.svg'

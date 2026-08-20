@@ -5,9 +5,9 @@ import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Navbar from './Navbar';
 
-import Logo from './Logo.js';
+// import Logo from './Logo.js';
 import star from './star.svg';
-import Logomobileview from './LogomobileView.js';
+// import Logomobileview from './LogomobileView.js';
 import './AllMobileview.css';
 import Footer from './Footer.js';
 

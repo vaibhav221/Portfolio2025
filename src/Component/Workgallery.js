@@ -1,5 +1,6 @@
-import React, { useEffect, useRef } from 'react';
-import Navbar from './Navbar';
+import React from 'react';
+// import React, { useEffect, useRef } from 'react';
+// import Navbar from './Navbar';
 import img1 from './1_Work_gallery.svg';
 import img2 from './2_Work_gallery.svg';
 import img3 from './3_Work_gallery.svg';
@@ -10,9 +11,9 @@ import img7 from './5_Work_gallery (11).svg';
 import img8 from './5_Work_gallery (7).svg';
 import img9 from './5_Work_gallery (8).svg';
 import img10 from './5_Work_gallery (9).svg';
-import L1 from './L1.svg';
-import L2 from './L2.svg';
-import L3 from './L3.svg';
+// import L1 from './L1.svg';
+// import L2 from './L2.svg';
+// import L3 from './L3.svg';
 
 const imagesRow1 = [
   img1,

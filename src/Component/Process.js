@@ -6,7 +6,7 @@ import secondimage from './2img.svg';
 import thirdimage from './3Img.svg';
 import fourthimage from './4img.svg';
 import fifthimage from './5img.svg';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 
 const Process = () => {
   return (
@@ -22,14 +22,14 @@ const Process = () => {
       </div>
       <div className="process-main-image-container">
         <div className="process-top-images">
-          <img src={firstimage}  alt="Top Image 1" className="process-top-image" />
-          <img src ={thirdimage}  alt="Top  Image 2" className="process-top-image" />
-          <img src={fifthimage} alt="Top Image 3" className="process-top-image" />
+          <img src={firstimage}  alt="Idea illustration" className="process-top-image" />
+          <img src ={thirdimage}  alt="Design illustration" className="process-top-image" />
+          <img src={fifthimage} alt="Cheers illustration" className="process-top-image" />
         </div>
-        <img src={bgimage} alt="Main Image" className="process-main-image" /> 
+        <img src={bgimage} alt="Process illustration" className="process-main-image" /> 
         <div className="process-bottom-images">
-          <img src={secondimage}  alt="Bottom Image 1" className="process-bottom-image" />
-          <img src ={fourthimage}  alt="Bottom Image 2" className="process-bottom-image" />
+          <img src={secondimage}  alt="Research illustration" className="process-bottom-image" />
+          <img src ={fourthimage}  alt="Feedback illustration" className="process-bottom-image" />
         </div>
         <div className='process-image-bottom-title'>
         <div className='process-image-bottom-title-text'><p>Research</p><p className='process-image-bottom-title-text-2'> Research And Analyze The<br/> Project Requirements And <br/>Objectives</p></div>

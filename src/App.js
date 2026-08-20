@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Maincomponent from './Component/Maincomponent';
 import Contact from './Component/Contact';
 import ProjectIkaansh from './Component/ProjectIkaansh';

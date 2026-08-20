@@ -1,6 +1,6 @@
 import React from 'react'
 import './All.css';
-import Navbar from './Navbar.js'
+// import Navbar from './Navbar.js'
 import logoLight from './chakka.svg';
 import logoDark from './chakka1.svg';
 import arrowLight from './Arrow1.svg';

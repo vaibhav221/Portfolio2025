@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './All.css';
 import './OurProject.css';
-import P2 from './ikansh.svg';
+// import P2 from './ikansh.svg';
 import KuberX from './KX.jpg';
 import './Maincomponent.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './AllMobileview.css';
 import P1 from './P1.gif';
 import p3 from './Kuberx_f.gif';
 import ef from './ef.jpg';
-import p4 from './Ikansh.png';
+// import p4 from './Ikansh.png';
 import p5 from "./PayCC.jpg"
 import cc from "./CC.png"
 
@@ -60,7 +60,7 @@ const Ourprojects = () => {
       </div>
       <div className='Pcard'>
         {cardData.map((card, index) => (
-          <a href="#" key={index} className="card" onClick={() => togglePopup(card.popupImage)}>
+          <button type="button" key={index} className="card" onClick={() => togglePopup(card.popupImage)}>
             <img src={card.src} alt={card.alt} className="card__img" />
             <span className="card__footer">
               <span>{card.title}</span>
@@ -71,7 +71,7 @@ const Ourprojects = () => {
                 <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" />
               </svg>
             </span>
-          </a>
+          </button>
         ))}
       </div>
 
@@ -79,7 +79,7 @@ const Ourprojects = () => {
       {isPopupOpen && (
         <div className="popup-overlay">
           <div className="popup-content">
-            <img src={popupImage} alt="Project Image" className="popup-image" />
+            <img src={popupImage} alt="Project preview" className="popup-image" />
             <button onClick={() => togglePopup('')} className="close-button">X</button>
           </div>
         </div>

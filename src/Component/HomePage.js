@@ -1,20 +1,21 @@
 import React from 'react';
-import logo from './MainVplogo.png'; // Make sure you have a logo.png in the src folder
+// import logo from './MainVplogo.png';
 import movingImage from './V4.png'; 
 
 import './All.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import CustomCursor from './Customcursor.js';
-import Navbar from './Navbar.js';
-import Figma_logo from './Figma_logo.svg';
-import Logo from './Logo.js';
-import Logomobileview from './LogomobileView.js';
+// import Navbar from './Navbar.js';
+// import Figma_logo from './Figma_logo.svg';
+// import Logo from './Logo.js';
+// import Logomobileview from './LogomobileView.js';
 import './AllMobileview.css';
-import react1 from './react.png';
+// import react1 from './react.png';
 import logo1 from './chakka.svg';
 import arrow from './arrowNew.svg';
 import './Div.css';
-import { FaMailBulk, FaPhone, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { FaMailBulk, FaPhone, FaWhatsapp } from 'react-icons/fa';
+// import { FaTwitter, FaYoutube } from 'react-icons/fa';
 import logo_1 from './logo.svg';
 
 function HomePage() {
